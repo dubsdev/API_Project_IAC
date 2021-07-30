@@ -102,19 +102,6 @@
         "identity": {
             "type": "SystemAssigned"
         }
-      },
-      
-      {
-          "name": "containerRegistry1",
-          "type": "Microsoft.ContainerRegistry/registries",
-          "apiVersion": "2019-05-01",
-          "location": "[resourceGroup().location]",
-          "sku": {
-              "name": "Basic"
-          },
-          "properties": {
-              "adminUserEnabled": true
-          }
       }
     ],
     "outputs": {
