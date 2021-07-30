@@ -116,8 +116,6 @@
               "adminUserEnabled": true
           }
       }
-    
-
     ],
     "outputs": {
       "controlPlaneFQDN": {
