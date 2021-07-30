@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "clusterName": {
+        "value": "Glasgow_API_Cluster"
+      },
+      "dnsPrefix": {
+        "value": "glasgowsubwayapi"
+      },
+      "linuxAdminUsername": {
+        "value": "DubsAdminPass01"
+      },
+      "sshRSAPublicKey": {
+        "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGyNNbUqBmKj11B25YV2UOu+whrPWArxYmybM88SPFD6kfWruGTHWOwYmXop3+fTmNmTrdTs6+4etQAJYZsHhmyDVvbL27If6aV1jBgMlgxlsEfpoDTPLbnnhOLIfxmWNWcXRe5OubdhgDeqcFqE4QjJT/3sH1nigQcyjpsnVWNZ/e3F6AW79nNvzb5qkeSHyhIp0RT+4w0oKXAXaBl5taZDRGivjp2gQfzzqZTrDOf7X/GEsTjqsm0oKMHtTkfDZFtRd8PbY+JBtoSV71Pikj0ypOdBgztJbfyHPvs4U8sW+UUKMNMlZOrwXxR0UNlCNe2dimICwZVeb1fMpyyScJ mcman@DESKTOP-0CPS0Q6"
+      }
+    }
+  }
